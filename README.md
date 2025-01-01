@@ -5,6 +5,4 @@
 
 <h1> Travel Blog </h1>
 
-<a href="https://the-travel-blog-site.netlify.app/"> <img src="<h1> Travel Blog </h1>
-
-<a href=""> <img src="https://github.com/Rohit-Pakhre09/Media-Query-Exam/blob/9fb0d336093642d353c0ca3c6361438bbd37cebe/Travel_blog.png"> </a>
+<a href="https://the-travel-blog-site.netlify.app/"> <img src="https://github.com/Rohit-Pakhre09/Media-Query-Exam/blob/9fb0d336093642d353c0ca3c6361438bbd37cebe/Travel_blog.png"> </a>
