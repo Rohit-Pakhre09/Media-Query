@@ -1,0 +1,140 @@
+/* Desktop Screen */
+@media (max-width: 1200px) {
+    .container {
+        margin-top: 10%;
+    }
+
+    .main-content {
+        height: auto;
+        width: 1050px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left {
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .right {
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .right p {
+        margin-top: 3%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+/* Laptop Screen */
+@media (max-width: 992px) {
+    .container {
+        margin-top: 10%;
+    }
+
+    .main-content {
+        height: auto;
+        width: 750px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left {
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    .right {
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .right p {
+        margin-top: 3%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+/* Tablet Screen */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 0%;
+    }
+
+    .main-content {
+        height: auto;
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        height: 300px;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .right {
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    .right p {
+        margin-top: 3%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+/* Mobile Screen */
+@media (max-width: 480px) {
+    .container {
+        margin-top: 0%;
+    }
+
+    .main-content {
+        height: auto;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        height: 300px;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .right {
+        height: auto;
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    .right p {
+        margin-top: 3%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+}
